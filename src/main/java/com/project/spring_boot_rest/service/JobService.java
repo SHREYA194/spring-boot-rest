@@ -16,6 +16,7 @@ public class JobService {
     private JobRepo jobRepo;
 
     public List<JobPost> getAllJobs() {
+//        int a = 10 / 0;
         return jobRepo.findAll();
     }
 
